@@ -18,13 +18,24 @@ Installing Socket.IO
 
 `npm install ng6-socket-io --save`
 
-
-
-
-
-
+### Install
+```shell
 npm i bootstrap --save
 ng g c todo
 npm i express mongoose body-parser --save
 npm i socket.io socket.io-client --save
+```
 
+### Run Angular and Node
+
+#### Angular 6
+
+```shell
+ng serve --open
+```
+
+#### NodeJS
+
+```shell
+npm run start:server
+```
